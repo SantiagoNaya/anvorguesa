@@ -1,0 +1,39 @@
+
+.clearfix {
+    overflow: auto;
+  }
+#casilla{
+    margin-top: 25px;
+}
+.resaltado{
+    font-weight: 700;
+    }
+.img2 {
+    float: left;
+    }
+.cursiva{
+    font-style: italic;
+    }
+.lobster{
+    font-family: 'Lobster', cursive; 
+    color: white;
+    }
+.fondo-imagen{
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    color: white;
+    }
+.blanco{
+    color: white;
+}
+.negroo{
+    background-color: black;
+    height: 80px;
+}
+.blanco{
+    color: white;
+    margin-left: 15px;
+    margin-top: 15px;
+}
