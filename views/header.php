@@ -1,62 +1,30 @@
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+<!-- inicio boostrap -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js">
+<!-- fin boostrap -->
 <body>
-<nav class="navbar" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-            <a class="navbar-item" href="../index.php">
-                <img src="../img/gatoanvorguesa.jpg" width="100" height="100">
-            </a>
-
-            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="true"
-                data-target="navbarBasicExample">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-            </a>
-        </div>
-
-        <div id="navbarBasicExample" class="navbar-menu">
-            <div class="navbar-start">
-                <a class="navbar-item" href="../index.php">
-                    Inicio
-                </a>
-
-                <a class="navbar-item" href="anvorguesa.php">
-                    Hamburguesas
-                </a>
-
-                <div class="navbar-item has-dropdown is-hoverable">
-                    <a class="navbar-link">
-                        Más
-                    </a>
-
-                    <div class="navbar-dropdown">
-                        <a class="navbar-item">
-                           Sobre nosotros
-                        </a>
-                      
-                        <a class="navbar-item">
-                            Contacto
-                        </a>
-                        <hr class="navbar-divider">
-                        <a class="navbar-item">
-                            Reportar un error
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="navbar-end">
-                <div class="navbar-item">
-                    <div class="buttons">
-                        <a class="button is-primary">
-                            <strong>Registrarse</strong>
-                        </a>
-                        <a class="button is-light">
-                            Entrar
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </nav>
-</body>
+<nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Navbar w/ text</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.php"> Inicio  </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="views/anvorguesa.php">Hamburguesas</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+    </ul>
+    <span class="navbar-text">
+      aca va la foto del gatito
+    </span>
+  </div>
+</nav>
+    
+           
+       </body>
