@@ -7,7 +7,7 @@
   <!-- inicio boostrap -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <!-- fin boostrap -->
-  <link rel="stylesheet" href="estilos/estilos.css">
+  <link rel="stylesheet" href="../estilos/estilos.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
@@ -35,8 +35,8 @@
               Más
             </a>
             <ul class="dropdown-menu dropdown-menu-dark">
-              <li><a class="dropdown-item" href="sobreNosotros.php">Sobre Nosotros</a></li>
-              <li><a class="dropdown-item" href="contacto.php">Contacto</a></li>
+              <li><a class="dropdown-item" href="views/sobreNosotros.php">Sobre Nosotros</a></li>
+              <li><a class="dropdown-item" href="views/contacto.php">Contacto</a></li>
             </ul>
           </li>
         </ul>

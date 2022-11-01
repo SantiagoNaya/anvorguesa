@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="estilos/estilos.css">
     
     <title>Anvorguesa - Inicio</title>
+    <link rel="shortcut icon" href="img/anvorguesaicon.png">
 </head>
 
 <body class="fondo-imagen">
